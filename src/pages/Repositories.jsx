@@ -6,7 +6,7 @@ import RepositoriesComponent from "../components/RepositoriesComponent";
 
 export const Repositories = () => {
   return (
-    <div className="h-dvh w-dvw grid lg:grid-cols-5">
+    <div className="h-dvh w-dvw grid grid-rows-12 lg:grid-cols-5">
       {/* Sidebar for large screens */}
       <div className="hidden lg:block col-span-1 border-r border-divider h-full">
         <div className="flex gap-2 items-center p-4 px-6 mb-2">
@@ -22,7 +22,7 @@ export const Repositories = () => {
       <SidebarMenuMobile />
 
       {/* Main Content */}
-      <div className="lg:col-span-4 lg:p-4">
+      <div className="row-span-11 lg:col-span-4 lg:p-4">
         <RepositoriesComponent />
       </div>
     </div>
