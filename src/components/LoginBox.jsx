@@ -30,9 +30,9 @@ export const LoginBox = () => {
           Welcome to CodeAnt AI
         </p>
         <div className="w-full px-4">
-          <div className=" rounded-2xl text-center flex text-xl font-semibold text-[#414651] bg-[#FAFAFA]">
+          <div className=" rounded-2xl text-center flex lg:text-xl font-semibold text-[#414651] bg-[#FAFAFA]">
             <button
-              className={`w-1/2 px-2 py-4 rounded-l-2xl ${
+              className={`w-1/2 p-2 lg:py-4 rounded-l-2xl ${
                 activeTab === "SAAS"
                   ? "bg-blue-500 text-white rounded-2xl"
                   : "bg-[#FAFAFA] text-[#414651]"
@@ -42,7 +42,7 @@ export const LoginBox = () => {
               SAAS
             </button>
             <button
-              className={`w-1/2 px-2 py-4 rounded-r-2xl ${
+              className={`w-1/2 p-2 lg:py-4 rounded-r-2xl ${
                 activeTab === "Self Hosted"
                   ? "bg-blue-500 text-white rounded-2xl"
                   : "bg-[#FAFAFA] text-[#414651]"
